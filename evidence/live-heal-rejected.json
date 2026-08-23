@@ -1,0 +1,15 @@
+{
+  "capturedAt": "2026-08-19T16:20:00Z",
+  "collectorId": "c_mt03abix22hd4vf273",
+  "status": "awaiting_approval",
+  "decision": "reject",
+  "reason": "The proposed preview improved summary content but returned published_date as an object instead of a date string, violating the downstream contract.",
+  "preview": {
+    "title": "Rewriting Bun in Rust",
+    "published_date": {},
+    "category": "Blog",
+    "summary": "Bun started as a line-for-line port of esbuild's ... the low-level control and care for performance.",
+    "url": "https://bun.com/blog/bun-in-rust"
+  },
+  "secretPolicy": "No API key, token, password, cookie, or authorization header recorded."
+}

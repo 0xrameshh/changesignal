@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Scan Git history for secrets
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.7.0
+          run_install: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm exec playwright install --with-deps chromium
+      - run: pnpm audit --prod
+      - run: pnpm test
+      - run: pnpm typecheck
+      - run: pnpm lint
+      - run: pnpm build
+      - run: pnpm release:audit
+      - run: pnpm standalone:smoke
+      - run: pnpm e2e
+      - run: pnpm verify:artifacts
+      - run: node scripts/secret-audit.mjs
+      - name: Confirm generated files are clean
+        run: git diff --exit-code
+
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: false
+          load: true
+          tags: changesignal:ci
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+      - name: Smoke test container
+        run: |
+          docker run --detach --name changesignal-ci --publish 3000:3000 changesignal:ci
+          trap 'docker rm --force changesignal-ci' EXIT
+          for attempt in {1..20}; do
+            health="$(curl --fail --silent http://127.0.0.1:3000/api/health || true)"
+            if grep --quiet '"status":"ok"' <<< "$health" && grep --quiet '"liveRunnerReady":true' <<< "$health"; then
+              exit 0
+            fi
+            sleep 1
+          done
+          docker logs changesignal-ci
+          exit 1

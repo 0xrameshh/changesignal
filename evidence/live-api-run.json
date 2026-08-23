@@ -1,0 +1,14 @@
+{
+  "capturedAt": "2026-08-19T16:01:12.717Z",
+  "endpoint": "POST /api/live/run",
+  "uiVerification": "The headed dashboard Run live collector action transitioned to Running Bright Data collector and then Live run complete.",
+  "action": "run",
+  "collectorId": "c_mt03abix22hd4vf273",
+  "targetUrl": "https://bun.sh/blog",
+  "resultCount": 176,
+  "entryCount": 176,
+  "sanitization": "reaction markers and unrequested fields were removed before the browser received the response",
+  "responseContract": "server returns sanitized raw Bright Data output; the browser parses it through the collector contract",
+  "credentialBoundary": "CLI credentials stay on the server process; no API key or authorization header is returned to the browser",
+  "secretPolicy": "No API key, token, password, cookie, or authorization header recorded."
+}

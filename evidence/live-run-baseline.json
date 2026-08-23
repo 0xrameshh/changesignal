@@ -1,0 +1,2666 @@
+{
+  "contractVersion": "0.1",
+  "mode": "live",
+  "source": "live",
+  "collectorId": "c_mt03abix22hd4vf273",
+  "targetUrl": "https://bun.sh/blog",
+  "capturedAt": "2026-08-19T12:58:26Z",
+  "run": {
+    "responseId": "d2t1787144064120rkc9p2ggh86g",
+    "batchJobId": "j_mt03fn3a1s8u883u5d"
+  },
+  "rawShape": {
+    "topLevel": "array",
+    "resultCount": 176,
+    "entryCount": 176,
+    "entryFields": [
+      "title",
+      "published_date",
+      "category",
+      "summary",
+      "url"
+    ]
+  },
+  "results": [
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.22",
+          "published_date": "2024-01-09T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.22 fixes 29 bugs, fixes bun install issues on Vercel, adds performance.mark() APIs, adds child_process support for extra pipes, makes Buffer.concat faster, adds toBeEmptyObject and toContainKeys matchers, fixes console.table width using emojis, and support for argv and execArgv options in worker_threads , and supports Brotli in fetch .",
+          "url": "https://bun.com/blog/bun-v1.0.22"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.22",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.4",
+          "published_date": "2025-02-26T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release makes Bun.build up to 60% faster on macOS, introduces codesigning support for single-file executables on macOS, improves dev server stability, fixes a regression from v1.2.3 affecting Hono, fixes a regression from v1.2.3 affecting bun init on Windows, fixes a bug where stdin streams that were paused immediately would prevent the process from exiting, fixes a bug where Buffer.prototype.indexOf could return incorrect results when searching for number values with a byte offset, and fixes a bug where net.Socket error handlers could receive JSC::Exception objects instead of Error instances.",
+          "url": "https://bun.com/blog/bun-v1.2.4"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.4",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.26",
+          "published_date": "2024-02-03T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one. In case you missed it, here are some of the recent changes to Bun.",
+          "url": "https://bun.com/blog/bun-v1.0.26"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.26",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.5.7",
+          "published_date": "2023-02-24T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.5.7 introduces FormData support, git dependencies, and AbortSignal with fetch() , setTimeout() is now more compatible with Node.js, bun wiptest is now bun test — with pretty-printed diffs! — and improved support on AWS Lambda and GitHub Actions.",
+          "url": "https://bun.com/blog/bun-v0.5.7"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.5.7",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.1",
+          "published_date": "2025-10-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.3",
+          "published_date": "2025-11-21T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 95 issues!",
+          "url": "https://bun.com/blog/bun-v1.3.3"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.3",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.10",
+          "published_date": "2026-02-26T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.10"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.10",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.8",
+          "published_date": "2023-11-02T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.8 fixes 138 bugs, makes require() use 30% less memory, adds module mocking to bun test , fixes more bun install bugs, and fixes more runtime bugs.",
+          "url": "https://bun.com/blog/bun-v1.0.8"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.8",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun 1.1",
+          "published_date": "2024-04-01T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is a fast, all-in-one toolkit for running, building, testing, and debugging JavaScript and TypeScript, from a single script to a full-stack application. If you're new to Bun, you can learn more in the Bun 1.0 blog post.",
+          "url": "https://bun.com/blog/bun-v1.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.5.8",
+          "published_date": "2023-03-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.5.8 introduces expect() snapshots in bun test , preloading modules using bun --preload , improvements to Web API & Node.js compatibility, lots of bug fixes, and a teaser of what's next.",
+          "url": "https://bun.com/blog/bun-v0.5.8"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.5.8",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.20",
+          "published_date": "2023-12-24T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.20 reduces memory usage in fs.readlink , fs.readFile , fs.writeFile , fs.stat and HTMLRewriter . Fixes a regression where setTimeout caused high CPU usage on Linux. HTMLRewriter.transform now supports strings and ArrayBuffer . fs.writeFile() and fs.readFile() now support hex & base64 encodings. Bun.spawn shows how much CPU & memory the process used.",
+          "url": "https://bun.com/blog/bun-v1.0.20"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.20",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.18",
+          "published_date": "2025-07-03T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is the complete toolkit for building and testing full-stack JavaScript and TypeScript applications. If you're new to Bun, you can learn more from the Bun 1.0 blog post.",
+          "url": "https://bun.com/blog/bun-v1.2.18"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.18",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.30",
+          "published_date": "2024-03-04T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.30"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.30",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.7",
+          "published_date": "2022-08-06T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.7"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.7",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.11",
+          "published_date": "2026-03-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.11"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.11",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.1",
+          "published_date": "2022-07-05T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Full Changelog",
+          "url": "https://bun.com/blog/bun-v0.1.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.13",
+          "published_date": "2024-06-05T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.13 is here! This release fixes 97 bugs. Reliability improvements to bun install, WebSocket server, fetch, worker_threads. worker_threads now supports eval. URL.createObjectURL , stack trace error location improvements, several bun install fixes, and many crashes and bugs fixed.",
+          "url": "https://bun.com/blog/bun-v1.1.13"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.13",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.2",
+          "published_date": "2022-07-07T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.5.2",
+          "published_date": "2023-01-31T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.5.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.5.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.7",
+          "published_date": "2025-03-27T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 35 bugs. Bun.CookieMap is a Map-like API for getting & setting cookies. Bun's TypeScript type declarations have been rewritten to eliminate conflicts with Node.js and DOM type definitions. Several bugfixes for node:http, node:crypto, and node:vm.",
+          "url": "https://bun.com/blog/bun-v1.2.7"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.7",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.4",
+          "published_date": "2023-05-26T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.4"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.4",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.44",
+          "published_date": "2025-01-16T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.44"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.44",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.2",
+          "published_date": "2025-02-01T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.2.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.5",
+          "published_date": "2024-04-26T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.1.5"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.5",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.21",
+          "published_date": "2024-07-27T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.21 is here! This release fixes 72 bugs. 30% faster fetch() decompression, New --fetch-preconnect flag, improved Remix support, Bun gets 4 MB smaller on Linux, bundle packages excluding dependencies, many bundler fixes and node compatibility improvements.",
+          "url": "https://bun.com/blog/bun-v1.1.21"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.21",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.19",
+          "published_date": "2024-07-12T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.19 is here! This release fixes 54 bugs. JavaScript gets faster on Windows. Raspberry Pi 4 support returns. _auth support in .npmrc . bun install preserves package.json indentation. aws-cdk-lib support. Memory leak fixes in new Response(request) and fs.readdir . Several reliability improvements. Statically linked UCRT on Windows.",
+          "url": "https://bun.com/blog/bun-v1.1.19"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.19",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.11",
+          "published_date": "2022-09-07T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.11"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.11",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.17",
+          "published_date": "2024-06-25T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.17 is here! This release fixes 4 bugs. Fixes a crash in bun repl. Makes fs.readdirSync 5% faster on macOS in small directories. Fixes \"ws\" module not calling the callback in \"send\" method. Fixes a crash when reading a corrupted lockfile in bun install. Makes macOS event loop slightly faster.",
+          "url": "https://bun.com/blog/bun-v1.1.17"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.17",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.8",
+          "published_date": "2023-06-09T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.8"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.8",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.2.1",
+          "published_date": "2022-10-19T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.2.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.2.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.16",
+          "published_date": "2023-12-10T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.16 fixes 49 bugs. Rewritten IO for Bun.file, Bun.write auto-creates the parent directory if it doesn't exist, expect.extend inside of preload works, napi_create_object gets 2.5x faster, bugfix for module resolution impacting Astro v4 and p-limit, console.log bugfixes, and more.",
+          "url": "https://bun.com/blog/bun-v1.0.16"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.16",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.6",
+          "published_date": "2023-10-11T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.6 fixes 3 bugs, including a regression impacting Docker usage with Bun and implements support for the overrides & resolutions fields in package.json .",
+          "url": "https://bun.com/blog/bun-v1.0.6"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.6",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.32",
+          "published_date": "2024-03-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.32"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.32",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.2",
+          "published_date": "2023-05-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "bun.report is Bun's new crash reporter",
+          "published_date": "2024-04-26T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "At the time of writing, Bun has over 2,600 open GitHub issues . We love having users and feedback, but some issues are really hard for us to reproduce and debug.",
+          "url": "https://bun.com/blog/bun-report-is-buns-new-crash-reporter"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-report-is-buns-new-crash-reporter",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.33",
+          "published_date": "2024-03-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.33"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.33",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.7",
+          "published_date": "2023-06-02T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.7"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.7",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.9",
+          "published_date": "2023-06-13T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.9"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.9",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.7",
+          "published_date": "2024-05-03T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.1.7"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.7",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.24",
+          "published_date": "2024-01-20T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one. In case you missed it, here are some of the recent changes to Bun.",
+          "url": "https://bun.com/blog/bun-v1.0.24"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.24",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.8",
+          "published_date": "2024-05-10T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.8 is here! This release fixes 54 bugs. Support for process.on(\"uncaughtException\") and process.on(\"unhandledRejection\") , JSON.parse gets faster, Brotli support in node:zlib , [Symbol.dispose] in Bun APIs, fixes lots of crashes on Windows, and many other bugfixes.",
+          "url": "https://bun.com/blog/bun-v1.1.8"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.8",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.42",
+          "published_date": "2024-12-21T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.42"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.42",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.8.1",
+          "published_date": "2023-08-26T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.8.1 adds unix domain socket support for Bun.serve(), fixes a performance regression, and fixes bugs in bun install, node:http and napi.",
+          "url": "https://bun.com/blog/bun-v0.8.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.8.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.14",
+          "published_date": "2023-11-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.14 introduces Bun.Glob , a fast API for matching files and strings using glob patterns. It also fixes a race condition when extracting dependencies during bun install , improves TypeScript module resolution in node_modules , and makes error messages easier to read.",
+          "url": "https://bun.com/blog/bun-v1.0.14"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.14",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.11",
+          "published_date": "2023-11-08T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.11 fixes 5 bugs, adds Bun.semver , fixes a bug in bun install and fixes bugs impacting astro and @google-cloud/storage",
+          "url": "https://bun.com/blog/bun-v1.0.11"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.11",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.4",
+          "published_date": "2022-07-13T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.4"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.4",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.2.0",
+          "published_date": "2022-10-13T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.2.0"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.2.0",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.31",
+          "published_date": "2024-10-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.31"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.31",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.10",
+          "published_date": "2022-08-19T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.10"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.10",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.14",
+          "published_date": "2024-06-19T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.14 is here! This release fixes 63 bugs. Patch node_modules with bun patch . ORM-less object mapping in bun:sqlite . Log all fetch() calls as a curl command. Node.js compatibility improvements. bun install bugfixes, bun:sqlite bugfixes, Windows bugfixes. And more.",
+          "url": "https://bun.com/blog/bun-v1.1.14"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.14",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.15",
+          "published_date": "2025-05-28T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 11 issues. bun audit scans dependencies for security vulnerabilities, bun pm view shows package metadata from npm, bun init adds a Cursor rule to use Bun instead of Node.js/Vite/npm/pnpm, node:vm SourceTextModule and node:perf_hooks createHistogram are now implemented.",
+          "url": "https://bun.com/blog/bun-v1.2.15"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.15",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.8",
+          "published_date": "2022-08-11T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.8"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.8",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "CommonJS is not going away",
+          "published_date": "2023-06-30T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/commonjs-is-not-going-away"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/commonjs-is-not-going-away",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.7.3",
+          "published_date": "2023-08-06T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.7.3 adds support for code coverage and filtering tests by RegExp pattern. Bugs have been fixed in async Node.js fs functions, bun:sqlite , Buffer.prototype.copy , and macros.",
+          "url": "https://bun.com/blog/bun-v0.7.3"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.7.3",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.3",
+          "published_date": "2023-09-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.3 fixes numerous bugs, adds support for metadata reflection via TypeScript's emitDecoratorMetadata , improves fetch compatibility, unblocks private registries like Azure Artifacts and Artifactory, bunx bugfix, console.log() depth 8 -> 2, Node.js compatibility improvements, and more.",
+          "url": "https://bun.com/blog/bun-v1.0.3"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.3",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.6",
+          "published_date": "2022-08-01T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.6"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.6",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.4",
+          "published_date": "2023-10-03T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.4 fixes 62 bugs, adds server.requestIP , supports virtual modules in runtime plugins, and reduces memory consumption in Bun.serve() . Thank you for reporting issues. We are working hard to fix them as quickly as possible.",
+          "url": "https://bun.com/blog/bun-v1.0.4"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.4",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.6",
+          "published_date": "2023-05-31T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.6"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.6",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.28",
+          "published_date": "2024-09-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.28 is here! This release fixes 40 bugs. Compile & run C from JavaScript. 30x faster path.resolve . Named pipes on Windows. Several Node.js compatibility improvements and bugfixes.",
+          "url": "https://bun.com/blog/bun-v1.1.28"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.28",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.5",
+          "published_date": "2023-05-29T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.5"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.5",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.2",
+          "published_date": "2025-11-08T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 287 issues.",
+          "url": "https://bun.com/blog/bun-v1.3.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun 1.3",
+          "published_date": "2025-10-10T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun 1.3 is our biggest release yet.",
+          "url": "https://bun.com/blog/bun-v1.3"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.2",
+          "published_date": "2023-09-15T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.2 fixes numerous bugs and makes bun --watch faster.",
+          "url": "https://bun.com/blog/bun-v1.0.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.2.2",
+          "published_date": "2022-10-27T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.2.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.2.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.5.1",
+          "published_date": "2023-01-19T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.5.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.5.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.5",
+          "published_date": "2023-01-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.5.0"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.5.0",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.14",
+          "published_date": "2023-07-12T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.14"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.14",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.27",
+          "published_date": "2024-02-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.27"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.27",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.9",
+          "published_date": "2025-04-09T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 48 bugs. Bun.redis is a builtin Redis client for Bun. ListObjectsV2 support in Bun.S3Client , more libuv symbols, require.extensions compatibility, regressions & bugfixes in node:http , AsyncLocalStorage , and node:crypto .",
+          "url": "https://bun.com/blog/bun-v1.2.9"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.9",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.13",
+          "published_date": "2026-04-20T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.13"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.13",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.12",
+          "published_date": "2023-06-30T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.12"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.12",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.7.2",
+          "published_date": "2023-08-03T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.7.2 adds support for node:worker_threads , node:diagnostics_channel , BroadcastChannel , improves compatibility with Node.js, and fixes a couple nasty memory leaks.",
+          "url": "https://bun.com/blog/bun-v0.7.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.7.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.3",
+          "published_date": "2022-07-11T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "All the PRs:",
+          "url": "https://bun.com/blog/bun-v0.1.3"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.3",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.6",
+          "published_date": "2024-04-28T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.1.6"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.6",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.12",
+          "published_date": "2026-04-09T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.12"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.12",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.7",
+          "published_date": "2023-10-20T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.7 fixes 59 bugs, implements optional peer dependencies in bun install , and makes improvements to Node.js compatibility.",
+          "url": "https://bun.com/blog/bun-v1.0.7"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.7",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.10",
+          "published_date": "2024-05-24T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.10 is here! This release fixes 20 bugs. 2x faster uncached bun install on Windows. fetch() uses up to 2.8x less memory. Several bugfixes to bun install, sourcemaps, Windows reliability improvements and Node.js compatibility improvements",
+          "url": "https://bun.com/blog/bun-v1.1.10"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.10",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Debugging JavaScript Memory Leaks",
+          "published_date": "2025-04-02T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "TLDR: Bun implements the v8 heap snapshot API, and Chrome DevTools supports comparing heap snapshots",
+          "url": "https://bun.com/blog/debugging-memory-leaks"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/debugging-memory-leaks",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.9",
+          "published_date": "2026-02-08T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.9"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.9",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.40",
+          "published_date": "2024-12-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.40"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.40",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.27",
+          "published_date": "2024-09-07T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.27 is here! This release fixes 130 bugs. bun pm pack , faster node:zlib . Static routes in Bun.serve(). ReadableStream support in response.clone() & request.clone(). Per-request timeouts. Cancel method in ReadableStream is called. bun run handles CTRL + C better. Faster buffered streams. bun outdated package filtering. Watch arbtirary file types in --hot and --watch. Fixes to proxies on Windows. Several Node.js compatibility improvements.",
+          "url": "https://bun.com/blog/bun-v1.1.27"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.27",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun 1.2",
+          "published_date": "2025-01-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is the complete toolkit for building and testing full-stack JavaScript and TypeScript applications. If you're new to Bun, you can learn more from the Bun 1.0 blog post.",
+          "url": "https://bun.com/blog/bun-v1.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.9",
+          "published_date": "2022-08-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.9"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.9",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.4",
+          "published_date": "2022-12-23T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.4.0"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.4.0",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.26",
+          "published_date": "2024-08-24T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.26 is here! This release fixes 9 bugs. bun outdated shows outdated dependencies. Bun.serve() gets a new idleTimeout option for socket timeouts, and subscriberCount(topic: string) for a count of websocket clients subscribed to a topic. bun test.only skips all other tests. expect.assertions(n) in async functionn is fixed. \"use strict\" in CommonJS modules is now preserved. Plus, more node.js compatibility improvements and bug fixes.",
+          "url": "https://bun.com/blog/bun-v1.1.26"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.26",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.6",
+          "published_date": "2026-01-13T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.6"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.6",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.7",
+          "published_date": "2026-01-27T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.7"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.7",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun has docs now",
+          "published_date": "2023-02-24T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun has docs now! 👉",
+          "url": "https://bun.com/blog/bun-has-docs-now"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-has-docs-now",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.3",
+          "published_date": "2024-04-08T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.1.3"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.3",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.29",
+          "published_date": "2024-02-23T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.29"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.29",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.17",
+          "published_date": "2025-06-21T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 50 issues, and adds +24 passing Node.js tests. Ahead-of-time bundling for HTML imports, more reliable Bun Shell, setTimeout and setImmediate use 8-15% less memory, columnTypes & declaredTypes in bun:sqlite , bun info is the new bun pm view , Node.js compatibility improvements to child_process.fork , fs.glob options are now optional, tls.getCACertificates() is now implemented, bun init generates CLAUDE.md when claude code is installed, and more.",
+          "url": "https://bun.com/blog/bun-v1.2.17"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.17",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.33",
+          "published_date": "2024-10-24T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.33"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.33",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun's new text-based lockfile",
+          "published_date": "2024-12-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "bun install is a fast npm-compatible package manager you can use with Node.js or Bun.",
+          "url": "https://bun.com/blog/bun-lock-text-lockfile"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-lock-text-lockfile",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.39",
+          "published_date": "2024-12-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.39"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.39",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.28",
+          "published_date": "2024-02-19T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.28"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.28",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.10",
+          "published_date": "2023-11-07T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.10 fixes 14 bugs, node:http gets 14% faster, adds stability improvements to Bun for Linux ARM64, and fixes bugs in bun install and node:http .",
+          "url": "https://bun.com/blog/bun-v1.0.10"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.10",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.2",
+          "published_date": "2024-04-06T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.1.2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.43",
+          "published_date": "2025-01-08T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.43"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.43",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.4",
+          "published_date": "2025-12-06T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.4"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.4",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.23",
+          "published_date": "2024-01-16T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one. In case you missed it, here are some of the recent changes to Bun.",
+          "url": "https://bun.com/blog/bun-v1.0.23"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.23",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "How Bun supports V8 APIs without using V8 (part 2)",
+          "published_date": "2024-11-05T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/how-bun-supports-v8-apis-without-using-v8-part-2"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/how-bun-supports-v8-apis-without-using-v8-part-2",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.13",
+          "published_date": "2025-05-09T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 17 bugs. Improved --hot stability and Node.js compatibility. Better node:worker_threads support, environment data, reduced memory usage for child_process IPC and worker_threads. Fixes BOM handling in .npmrc files. Fixes hot reloading on older versions of chrome.",
+          "url": "https://bun.com/blog/bun-v1.2.13"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.13",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.31",
+          "published_date": "2024-03-14T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.31"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.31",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.30",
+          "published_date": "2024-10-08T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.30"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.30",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "500x faster postMessage(string)",
+          "published_date": "2025-08-20T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "postMessage is the most common way to send data between multiple worker threads in JavaScript, and in Bun v1.2.21, postMessage(string) performance is nearly independent of string size. This is a big improvement for multi-threaded JavaScript servers & CLIs.",
+          "url": "https://bun.com/blog/how-we-made-postMessage-string-500x-faster"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/how-we-made-postMessage-string-500x-faster",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.25",
+          "published_date": "2024-08-21T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.25 is here! This release fixes 42 bugs. Support for node:cluster and V8's C++ API. Faster WebAssembly on Windows with OMGJIT. 5x faster S3 uploads with @aws-sdk/client-s3, Worker in standalone executables, and more Node.js compatibility improvements and bug fixes.",
+          "url": "https://bun.com/blog/bun-v1.1.25"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.25",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.29",
+          "published_date": "2024-09-20T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.29 is here! This release fixes 21 bugs. Fixes issue with proxying requests with axios. N-API (napi) support in compiled C. Faster typed arrays in bun:ffi with 'buffer' type. Fixes issue with bundling imported .wasm files in bun build . Fixes regression with bun build from v1.1.28. Fixes snapshot regression in bun test . Fixes bug with argument validation in Bun.build plugins.",
+          "url": "https://bun.com/blog/bun-v1.1.29"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.29",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.41",
+          "published_date": "2024-12-20T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.41"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.41",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.17",
+          "published_date": "2023-12-12T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.17 fixes 15 bugs. bun install postinstall scripts run for top 500 packages, bunx supabase starts 30x faster than npx supabase , bunx esbuild starts 50x faster than npx esbuild and bugfixes to bun install",
+          "url": "https://bun.com/blog/bun-v1.0.17"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.17",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.23",
+          "published_date": "2024-08-14T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.23 is here! This release fixes 27 bugs. Support for TextEncoderStream and TextDecoderStream , 50% faster console.log(string) , support for Float16Array , better out of memory handling, Node.js<>Bun IPC on Windows, truncate large arrays in console.log() , and many more bug fixes and Node.js compatibility improvements.",
+          "url": "https://bun.com/blog/bun-v1.1.23"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.23",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.36",
+          "published_date": "2024-03-29T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.36"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.36",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.10",
+          "published_date": "2023-06-26T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.10"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.10",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.13",
+          "published_date": "2023-07-04T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.13"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.13",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.23",
+          "published_date": "2025-09-28T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 119 issues.",
+          "url": "https://bun.com/blog/bun-v1.2.23"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.23",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.19",
+          "published_date": "2025-07-19T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is the complete toolkit for building and testing full-stack JavaScript and TypeScript applications. If you're new to Bun, you can learn more from the Bun 1.0 blog post.",
+          "url": "https://bun.com/blog/bun-v1.2.19"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.19",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.16",
+          "published_date": "2025-06-11T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 73 issues, and adds +119 passing Node.js tests. Serve files with Bun.serve through routes , install.linkWorkspacePackages option in bunfig.toml , bun outdated support for catalogs, Bun.hash.rapidhash , node:net compatibility, vm.SyntheticModule support, HTTPParser binding, and memory leak fixes.",
+          "url": "https://bun.com/blog/bun-v1.2.16"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.16",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.14",
+          "published_date": "2026-05-13T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.14"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.14",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.5",
+          "published_date": "2025-03-11T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 75 bugs, and adds +69 passing Node.js tests. It includes improvements to the frontend dev server, CSS modules support, a full rewrite of Node-API, faster Sign , Verify , Hash , Hmac from node:crypto , and bug fixes for node:net and Bun's bundler.",
+          "url": "https://bun.com/blog/bun-v1.2.5"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.5",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.38",
+          "published_date": "2024-11-29T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.38"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.38",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.12",
+          "published_date": "2025-05-04T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release includes a new --console flag for bun ./index.html to stream browser console logs to the terminal. Bun's frontend dev server now uses less memory, and Node.js compatibility improvements for timers, vm, net, http, and bugfixes for TextDecoder, hot reloading reliability bugfixes.",
+          "url": "https://bun.com/blog/bun-v1.2.12"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.12",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.37",
+          "published_date": "2024-11-26T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.37"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.37",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.5",
+          "published_date": "2022-07-23T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.5"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.5",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.0",
+          "published_date": "2023-05-16T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.0"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.0",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.22",
+          "published_date": "2024-08-07T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.22 is here! This release fixes 79 bugs. Express is now 3x faster in Bun, ES modules load faster on Windows, 10% faster Bun.serve() at POST requests, source maps in bun build --compile . Memory usage reductions to --hot , Bun.serve(), and imports. Uint8Array.toBase64() , Uint8Array.toHex() , and lots of Node.js compatibiltiy improvements and bugfixes.",
+          "url": "https://bun.com/blog/bun-v1.1.22"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.22",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.7.0",
+          "published_date": "2023-07-21T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "We're pleased to announce Bun v0.7.0, a big leap forward in terms of Node.js compatibility.",
+          "url": "https://bun.com/blog/bun-v0.7.0"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.7.0",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.25",
+          "published_date": "2024-01-21T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one. In case you missed it, here are some of the recent changes to Bun.",
+          "url": "https://bun.com/blog/bun-v1.0.25"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.25",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun is joining Anthropic",
+          "published_date": "2025-12-02T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "TLDR: Bun has been acquired by Anthropic. Anthropic is betting on Bun as the infrastructure powering Claude Code, Claude Agent SDK, and future AI coding products & tools.",
+          "url": "https://bun.com/blog/bun-joins-anthropic"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-joins-anthropic",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "The Bun Shell",
+          "published_date": "2024-01-20T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "JavaScript is the world's most popular scripting language.",
+          "url": "https://bun.com/blog/the-bun-shell"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/the-bun-shell",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.12",
+          "published_date": "2023-11-16T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.12 fixes 24 bugs, makes bun's CLI help menus easier to read, adds support for bun -e , bun --env-file , server.url , import.meta.env , expect.unreachable() , improves support for module mocks, allows importing builtin modules at bundle-time, and improves Node.js compatibility.",
+          "url": "https://bun.com/blog/bun-v1.0.12"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.12",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Vercel now supports the Bun Runtime",
+          "published_date": "2025-10-28T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "You can now run your applications on the Bun Runtime on Vercel.",
+          "url": "https://bun.com/blog/vercel-adds-native-bun-support"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/vercel-adds-native-bun-support",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.19",
+          "published_date": "2023-12-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.19 fixes 26 bugs. Use @types/bun instead of bun-types . Fixes \"lockfile had changes, but is frozen\" bug. bcrypt & argon2 packages now work. setTimeout & setInterval get 4x higher throughput. module mocks in bun:test resolve specifiers. Optimized spawnSync() for large stdio on Linux. Bun.peek() gets 90x faster, expect(map1).toEqual(map2) gets 100x faster. Bugfixes to NAPI, bun install, and Node.js compatibility improvements",
+          "url": "https://bun.com/blog/bun-v1.0.19"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.19",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.32",
+          "published_date": "2024-10-21T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.32"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.32",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.13",
+          "published_date": "2023-11-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.13 fixes 6 bugs, adds support for the \"node:http2\" module (unblocking gRPC in Bun). Vite 5 & Rollup 4 work now. Implements process.report.getReport() , improves support for ES5 with statements, fixes a regression in bun install , and fixes a crash when printing exceptions.",
+          "url": "https://bun.com/blog/bun-v1.0.13"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.13",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.16",
+          "published_date": "2024-06-23T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.16 is here! This release fixes 41 bugs. lcov code coverage reports in bun test, Install dependencies from private git repositories including Gitlab and Bitbucket. Buffer.from(string, \"base64\") gets 6x - 30x faster on large input. Bug fixes to bun patch , bun install , N-APi addons, transpiler bugfixes and Node.js compatibility improvements.",
+          "url": "https://bun.com/blog/bun-v1.1.16"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.16",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.8.0",
+          "published_date": "2023-08-24T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.8.0 adds debugger support, implements fetch streaming, and unblocks SvelteKit . ReadStream and WriteStream from node:tty are implemented, and .setRawMode() now works on process.stdin , unblocking several interactive CLI tools. Plus Node.js compatibility updates, bug fixes, stability improvements.",
+          "url": "https://bun.com/blog/bun-v0.8.0"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.8.0",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.5.5",
+          "published_date": "2023-02-02T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.5.5 improves Node.js compatibility for node:http , adds support for http.request() , and fixes various bugs.",
+          "url": "https://bun.com/blog/bun-v0.5.5"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.5.5",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.5.6",
+          "published_date": "2023-02-09T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.5.6 introduces Bun.sleep , improves Docker support, and makes various improvements to Node.js and npm compatibility.",
+          "url": "https://bun.com/blog/bun-v0.5.6"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.5.6",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.1.12",
+          "published_date": "2022-09-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "To upgrade:",
+          "url": "https://bun.com/blog/bun-v0.1.12"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.1.12",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.18",
+          "published_date": "2023-12-14T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.18 fixes 27 bugs. A hang impacting create-vite & create-next & stdin has been fixed. Lifecycle scripts reporting \"node\" or \"node-gyp\" not found has been fixed. expect().rejects works like Jest now, and more bugfixes.",
+          "url": "https://bun.com/blog/bun-v1.0.18"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.18",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.5.9",
+          "published_date": "2023-04-04T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.5.9 introduces watch mode using bun --watch , adds support for tarball dependencies in bun install , and fixes lots of bugs to improve stability and compatibility.",
+          "url": "https://bun.com/blog/bun-v0.5.9"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.5.9",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.45",
+          "published_date": "2025-01-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.45"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.45",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.1",
+          "published_date": "2025-01-27T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.2.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.7.1",
+          "published_date": "2023-07-29T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v0.7.1 improves Node.js compatiblity with Vite and frameworks, improves ES Modules load times, and fixes a few transpiler bugs.",
+          "url": "https://bun.com/blog/bun-v0.7.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.7.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "How Bun supports V8 APIs without using V8 (part 1)",
+          "published_date": "2024-09-30T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/how-bun-supports-v8-apis-without-using-v8-part-1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/how-bun-supports-v8-apis-without-using-v8-part-1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.22",
+          "published_date": "2025-09-14T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.2.22"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.22",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.3",
+          "published_date": "2025-02-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 128 bugs. Bun gets a full-featured frontend development toolchain with incredibly fast hot reloading and bundling. Built-in routing for Bun.serve() makes it simpler to build web applications. Bun.SQL gets sql.array, sql fragments, sql.file, and many bugfixes. Node.js compatibility improvements for Buffer & Node-API (napi).",
+          "url": "https://bun.com/blog/bun-v1.2.3"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.3",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun 1.0",
+          "published_date": "2023-09-08T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun 1.0 is finally here.",
+          "url": "https://bun.com/blog/bun-v1.0"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.5",
+          "published_date": "2025-12-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.5"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.5",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.3.0",
+          "published_date": "2022-12-07T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Today, Bun has two main priorities: stability and compatibility with Node.js and Web APIs. In v0.3.0, we've made significant progress toward both of these goals. There are a lot of changes to cover, so we'll start with the highlights.",
+          "url": "https://bun.com/blog/bun-v0.3.0"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.3.0",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.14",
+          "published_date": "2025-05-21T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 39 issues and adds support for catalogs in bun install , a --react flag for bun init , improved HTTP routing with method-specific routes, better TypeScript default module settings, fixes a HTTPS proxy issue impacting Codex, and several Node.js compatibility improvements including worker_threads reliability enhancements and http2 server improvements.",
+          "url": "https://bun.com/blog/bun-v1.2.14"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.14",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Compile and run C in JavaScript",
+          "published_date": "2024-09-18T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "From compression to cryptography to networking to the web browser you're reading this on, the world runs on C. If it's not written in C, it speaks the C ABI (C++, Rust, Zig, etc) and is available as a C library. C and the C ABI are the past, present, and future of systems programming.",
+          "url": "https://bun.com/blog/compile-and-run-c-in-js"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/compile-and-run-c-in-js",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.10",
+          "published_date": "2025-04-17T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 33 bugs. setImmediate gets faster. Reliability improvements for filesystem operations. Fixes test.failing with done callbacks. Fixes default idle timeout in Redis client. Fixes importing from 'bun' module with bytecode compilation. Default Docker image updated to Debian Bookworm.",
+          "url": "https://bun.com/blog/bun-v1.2.10"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.10",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.11",
+          "published_date": "2024-06-01T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.11 is here! This release Fixes 36 bugs. bun update saves dependency updates to package.json. A peer dependencies resolution bug in bun install is fixed. setTimeout gets 5x faster throughput on Linux. Node.js compatibility improvements to fs , zlib , timers , http , dgram and module . Event loop improvements on macOS. Windows reliability improvements.",
+          "url": "https://bun.com/blog/bun-v1.1.11"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.11",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.6",
+          "published_date": "2025-03-25T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 74 bugs. node:crypto gets faster & more compatible. timeout option in Bun.spawn. Support for module.children in node:module . Connect to PostgreSQL via unix sockets with Bun.SQL . Dev Server stability improvements. vm.compileFunction. Initial support for node:test. Faster Express & Fastify.",
+          "url": "https://bun.com/blog/bun-v1.2.6"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.6",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.21",
+          "published_date": "2025-08-25T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 69 issues.",
+          "url": "https://bun.com/blog/bun-v1.2.21"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.21",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.8",
+          "published_date": "2025-03-31T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 18 bugs. napi improvements make node-sdl 100x faster. Headers.get() is 2x faster. Several node:http bugfixes. node:fs improvements. bun install --frozen-lockfile now works with overrides . bun pack now handles directory-specific pattern exclusion.",
+          "url": "https://bun.com/blog/bun-v1.2.8"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.8",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.21",
+          "published_date": "2024-01-02T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.21 fixes 33 bugs. console.table() support. Bun.write , Bun.file, and bun:sqlite use less memory. Large file uploads with FormData use less memory. bun:sqlite error messages get more detailed. Memory leak in errors from node:fs fixed. Node.js compatibility improvements, and many crashes fixed",
+          "url": "https://bun.com/blog/bun-v1.0.21"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.21",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v0.6.3",
+          "published_date": "2023-05-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v0.6.3"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v0.6.3",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.18",
+          "published_date": "2024-07-03T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.18 is here! This release fixes 55 bugs. Support for npmrc. Improved constant folding & enum inlining. Improved console.log output for functions. Fixes patching dependencies in workspaces. Fixes several bugs in bun install when linking binaries. Fixes a crash in dns.lookup , and normalizes DNS errors to better match Node. Fixes an assertion failure in Bun.escapeHTML . Upgrades JavaScriptCore.",
+          "url": "https://bun.com/blog/bun-v1.1.18"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.18",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.4",
+          "published_date": "2024-04-16T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.1.4"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.4",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.34",
+          "published_date": "2024-11-02T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.34"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.34",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "JavaScript Macros in Bun",
+          "published_date": "2023-05-31T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Two weeks ago, we launched our new JavaScript bundler in Bun v0.6.0 . Today we're releasing a new feature that highlights the tight integration between Bun's bundler and runtime: Bun Macros.",
+          "url": "https://bun.com/blog/bun-macros"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-macros",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.34",
+          "published_date": "2024-03-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.0.34"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.34",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.11",
+          "published_date": "2025-04-29T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 62 bugs. It adds support for process.ref and process.unref , util.parseArgs negative options, BUN_INSPECT_PRELOAD , Highway SIMD, Node.js compatibility improvements for node:http , node:https , node:crypto , node:tls , and node:readline .",
+          "url": "https://bun.com/blog/bun-v1.2.11"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.11",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.9",
+          "published_date": "2023-11-05T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.9 fixes regressions impacting usage in Vercel & older CPUs, a Bun.spawn bug, an edgecase with peer dependency installs, and a JSX transpiler bugfix.",
+          "url": "https://bun.com/blog/bun-v1.0.9"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.9",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Rewriting Bun in Rust",
+          "published_date": "2026-07-08T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Disclosure: Bun was acquired by Anthropic in December 2025. I and others on the Bun team work at Anthropic. I used a pre-release version of Claude Fable 5 for much of the Rust rewrite.",
+          "url": "https://bun.com/blog/bun-in-rust"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-in-rust",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.1",
+          "published_date": "2023-09-12T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.1 adds named imports for .json & .toml files, fixes a bug with bun install and error.PathAlreadyExists , fixes a bug importing node: builtins in bun build --compile , fixes a bug in relative() within node:path, fixes a bug where bun would load the wrong .env file, fixes a bug where tsconfig.json would be loaded in bun run <package.json script> , fixes a path.parse() bug, and fixes a bug where build errors would be printed twice.",
+          "url": "https://bun.com/blog/bun-v1.0.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.35",
+          "published_date": "2024-11-19T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Note",
+          "url": "https://bun.com/blog/bun-v1.1.35"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.35",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.2.20",
+          "published_date": "2025-08-10T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "This release fixes 141 issues and includes many reliability improvements throughout the runtime, the bundler, and the dev server.",
+          "url": "https://bun.com/blog/bun-v1.2.20"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.2.20",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.3.8",
+          "published_date": "2026-01-29T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "curl",
+          "url": "https://bun.com/blog/bun-v1.3.8"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.3.8",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.1",
+          "published_date": "2024-04-04T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun is an incredibly fast JavaScript runtime, bundler, transpiler, and package manager — all in one.",
+          "url": "https://bun.com/blog/bun-v1.1.1"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.1",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.15",
+          "published_date": "2023-12-02T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.15 fixes 23 bugs, tsc starts 2x faster, prettier 40% faster. Stable WebSocket client, syntax-highlighted errors, cleaner stack traces, add custom test matchers with expect.extend() + additional expect matchers, TensorFlow.js support, and more.",
+          "url": "https://bun.com/blog/bun-v1.0.15"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.15",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.0.5",
+          "published_date": "2023-10-11T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.0.5 fixes 41 bugs, including a memory leak in fetch() , adds KeyObject support in crypto module, bun install can import package-lock.json files, and install peer dependencies. We've also added a bun pm migrate subcommand, and more bugfixes.",
+          "url": "https://bun.com/blog/bun-v1.0.5"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.0.5",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Bun v1.1.9",
+          "published_date": "2024-05-22T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun v1.1.9 is here! This release fixes 67 bugs, and includes fixes to workspaces in bun install , sourcemaps in bun build , IPv6 & VPN connectivity issues, loading UNC paths, junctions, symlinks, and pnpm on Windows. fetch() gets faster. A new dns.prefetch() API is introduced. atob() gets 8x faster. buffer.toString('base64url') gets 5x faster. expect().toBeReturned() matcher is introduced. We've also made Node.js compatibility improvements and added Bun Shell fixes. Oh, and lots more bugfixes.",
+          "url": "https://bun.com/blog/bun-v1.1.9"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-v1.1.9",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "Behind The Scenes of Bun Install",
+          "published_date": "2025-09-10T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Running bun install is fast, very fast. On average, it runs ~7× faster than npm, ~4× faster than pnpm, and ~17× faster than yarn. The difference is especially noticeable in large codebases. What used to take minutes now takes (milli)seconds.",
+          "url": "https://bun.com/blog/behind-the-scenes-of-bun-install"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/behind-the-scenes-of-bun-install",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    },
+    {
+      "entries": [
+        {
+          "title": "The Bun Bundler",
+          "published_date": "2023-05-16T00:00:00.000Z",
+          "category": "Blog",
+          "summary": "Bun's fast native bundler is now in beta. It can be used via the bun build CLI command or the new Bun.build() JavaScript API.",
+          "url": "https://bun.com/blog/bun-bundler"
+        }
+      ],
+      "product_page_url": "https://bun.sh/blog/bun-bundler",
+      "input": {
+        "url": "https://bun.sh/blog"
+      }
+    }
+  ]
+}

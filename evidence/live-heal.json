@@ -1,0 +1,30 @@
+{
+  "capturedAt": "2026-08-19T16:30:00Z",
+  "collectorId": "c_mt03abix22hd4vf273",
+  "status": "done",
+  "failureType": "incomplete_field_content",
+  "prompt": "Fix only summary extraction. Current runs return boilerplate summaries such as Note and To upgrade. Replace those with a meaningful one- or two-sentence article synopsis while preserving the entries array and title, published_date, category, summary, and url fields. Preserve published_date as a non-empty ISO-8601 string.",
+  "approval": {
+    "mode": "human-reviewed CLI approval",
+    "autoSave": true,
+    "firstProposalRejected": "The first preview regressed published_date to an object; evidence/live-heal-rejected.json records the rejection.",
+    "approvedPreview": {
+      "title": "Rewriting Bun in Rust",
+      "published_date": "2026-07-08T00:00:00.000Z",
+      "category": "Blog",
+      "summary": "Why & how we rewrote Bun from Zig to Rust",
+      "url": "https://bun.com/blog/bun-in-rust"
+    }
+  },
+  "completedSteps": [
+    "planner",
+    "control_preview_runner",
+    "code_fixer",
+    "step_preview_runner",
+    "request_fulfillment_validator",
+    "user_approval",
+    "save_new_template"
+  ],
+  "nextStep": "Run the same collector against https://bun.sh/blog and validate the semantic summary contract.",
+  "secretPolicy": "No API key, token, password, cookie, or authorization header recorded."
+}

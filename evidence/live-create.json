@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-08-19T12:50:18.201Z",
+  "targetUrl": "https://bun.sh/blog",
+  "collectorId": "c_mt03abix22hd4vf273",
+  "name": "changesignal-bun-blog",
+  "status": "done",
+  "completedSteps": [
+    "prepare_intent_analyzer",
+    "planner",
+    "discovery",
+    "collector_mainatiner",
+    "output_schema_generator",
+    "code_generator",
+    "input_schema_generator",
+    "preview_runner",
+    "preview_picker"
+  ],
+  "viewUrl": "https://brightdata.com/cp/scrapers/c_mt03abix22hd4vf273",
+  "command": "BRIGHTDATA_TARGET_URL=https://bun.sh/blog pnpm bright:create",
+  "secretPolicy": "No API key, token, password, cookie, or authorization header recorded."
+}

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "collectorId": "c_mt03abix22hd4vf273",
+  "targetUrl": "https://bun.sh/blog",
+  "chain": [
+    {
+      "role": "collector-created",
+      "path": "evidence/live-create.json",
+      "capturedAt": "2026-08-19T12:50:18.201Z",
+      "sha256": "9a779c8dd4d36460f4b727f5041fd75bd3879c2777cf19123eff02e24e366bf6"
+    },
+    {
+      "role": "semantic-failure",
+      "path": "evidence/live-failure.json",
+      "capturedAt": "2026-08-19T12:58:26Z",
+      "sha256": "b92fadf9fed082f51c118a12a8f000b6a029a2b349c00e45d0601286ee946948"
+    },
+    {
+      "role": "unsafe-repair-rejected",
+      "path": "evidence/live-heal-rejected.json",
+      "capturedAt": "2026-08-19T16:20:00Z",
+      "sha256": "92ebb0d809568206ec4f8b9b0484e98b05427f2a661d4146b1f620424c365349"
+    },
+    {
+      "role": "safe-repair-approved",
+      "path": "evidence/live-heal.json",
+      "capturedAt": "2026-08-19T16:30:00Z",
+      "sha256": "ec1ecbb657dc655787b0ed3145f5178a17cc46ef2f6ff8644723f35cce74abf1"
+    },
+    {
+      "role": "post-heal-route-run",
+      "path": "evidence/next-live-api-run.json",
+      "capturedAt": "2026-08-19T18:27:40.706Z",
+      "sha256": "5b44c8d0e9ac28691d45a9996bcfe90cf1d6bc4f4aaa38f2b20f99d51feaf3aa"
+    },
+    {
+      "role": "sanitized-recovered-evidence",
+      "path": "evidence/live-run-recovered.json",
+      "capturedAt": "2026-08-19T18:27:40.706Z",
+      "sha256": "3b9253741dbb9f65aaea21fa790266f5a72ee3aefb53cfaac6847ab4bd6c0fd3"
+    },
+    {
+      "role": "promoted-live-artifact",
+      "path": "data/collector.live.json",
+      "capturedAt": "2026-08-19T18:27:40.706Z",
+      "sha256": "4d36022fb4b03172a62394e0c0528050a03d2aaa0089ae2cb75f79931d88c07d"
+    }
+  ],
+  "derivation": {
+    "source": "evidence/next-live-api-run.json",
+    "sanitized": "evidence/live-run-recovered.json",
+    "promoted": "data/collector.live.json",
+    "commands": [
+      "BRIGHTDATA_COLLECTOR_ID=c_mt03abix22hd4vf273 BRIGHTDATA_TARGET_URL=https://bun.sh/blog node scripts/sanitize-live-run.mjs evidence/next-live-api-run.json evidence/live-run-recovered.json",
+      "node scripts/promote-live-artifact.mjs evidence/live-run-recovered.json data/collector.live.json",
+      "node scripts/verify-evidence.mjs"
+    ]
+  }
+}

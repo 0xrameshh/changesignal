@@ -1,0 +1,27 @@
+{
+  "target": "https://bun.sh/blog",
+  "capturedAt": "2026-08-17T20:33:07.100Z",
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "title": "Blog | Bun",
+  "bytes": 318426,
+  "publicPageSignals": {
+    "loginLanguageFound": false,
+    "paywallLanguageFound": false
+  },
+  "observedFieldPlan": [
+    "published date",
+    "article title",
+    "category label",
+    "short summary",
+    "article URL"
+  ],
+  "excludedFieldPlan": [
+    "author names",
+    "reactions",
+    "comments",
+    "analytics identifiers",
+    "personal data"
+  ],
+  "note": "This capture verifies reachability and public-page signals only. A subsequent headed catalog check on 2026-08-19 found no Bun pre-built scraper; see evidence/prebuilt-bun-library-2026-08-19.md."
+}

@@ -1,0 +1,29 @@
+{
+  "capturedAt": "2026-08-19T12:58:26Z",
+  "collectorId": "c_mt03abix22hd4vf273",
+  "targetUrl": "https://bun.sh/blog",
+  "failureType": "incomplete_field_content",
+  "contractRule": "summary must contain a meaningful article synopsis, not navigation or boilerplate text",
+  "entryCount": 176,
+  "incompleteSummaryCount": 50,
+  "incompleteSummaryValues": ["Note", "To upgrade:"],
+  "samples": [
+    {
+      "title": "Bun v0.1.7",
+      "summary": "To upgrade:",
+      "url": "https://bun.com/blog/bun-v0.1.7"
+    },
+    {
+      "title": "Bun v0.5.2",
+      "summary": "Note",
+      "url": "https://bun.com/blog/bun-v0.5.2"
+    },
+    {
+      "title": "Bun v1.1.44",
+      "summary": "Note",
+      "url": "https://bun.com/blog/bun-v1.1.44"
+    }
+  ],
+  "assessment": "The collector run succeeded transport-wise but 50 summaries were semantically incomplete, so the downstream useful-summary contract marked the run as needing attention.",
+  "secretPolicy": "No API key, token, password, cookie, or authorization header recorded."
+}
